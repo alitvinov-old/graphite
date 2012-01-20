@@ -1,0 +1,52 @@
+/* $Id$ */
+body {
+  background: #e6e9ec url(../i/body-repeat.png);
+  min-width: 980px;
+}
+.page-wrap {
+  background: url(../i/body-wrap.png) repeat-x top center;
+  padding: 30px 50px;
+  min-height: 500px;
+}
+.sidebar {
+  float: right;
+  margin: 45px 0 0 10px;
+  width: 200px;
+}
+#content {
+  margin-right: 210px;
+}
+#page {
+  background: #fff;
+  border: 1px solid #bbb;
+  padding: 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: #aaa 0 2px 3px;
+  position: relative;
+  z-index: 1;
+}
+#footer {
+  clear: both;
+  margin: 30px 0 0;
+  border-top: 1px solid #ACB1B7;
+}
+#footer .footer-wrap {
+  border-top: 1px solid #fff;
+  padding: 20px 30px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+* html .clearfix {
+  height: 1%;
+}
+*:first-child + html .clearfix {
+  min-height: 1%;
+}

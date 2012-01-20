@@ -1,0 +1,158 @@
+/* $Id$ */
+#toolbar {
+  color: #525252;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 980px;
+  z-index: 600;
+  font-size: 11px;
+}
+.overlay-open #toolbar {
+  -webkit-box-shadow: #333 0 1px 10px;
+  -moz-box-shadow: #333 0 1px 10px;  
+  box-shadow: #333 0 1px 10px;
+}
+
+#toolbar ul {
+  margin: 0;
+}
+#toolbar ul li {
+  float: left;
+  list-style: none;
+  padding: 0 0 0 4px;  
+}
+#toolbar a {
+  color: #222;
+  text-decoration: none;
+  text-shadow: #cccccc 0 1px;
+}
+
+#toolbar .toolbar-menu {
+  background: #d0d0d0 url(../i/toolbar.png) repeat-x left bottom;
+  border-bottom: 1px solid #515151;
+  border-top: 1px solid #e2e2e2;
+  overflow: hidden;
+  padding: 0 10px 0 5px;
+  position: relative;
+}
+
+#toolbar .toolbar-menu .toggle {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  width: 29px;
+  height: 29px;
+  text-indent: -9000px;
+  background: url(../i/icons/shortcuts.png) no-repeat center;
+}
+#toolbar .toolbar-menu .toggle-active {
+  background-image: url(../i/icons/shortcuts-active.png);
+}
+
+#toolbar .toolbar-menu #toolbar-user {
+  float: right;
+  padding: 8px 0;
+  margin: 0 40px 0 0;
+}
+#toolbar .toolbar-menu #toolbar-user .logout a {
+  width: 16px;
+  height: 16px;
+  background: url(../i/icons/logout.png) no-repeat center;
+  display: block;
+  text-indent: -9000px;
+  margin: 0 0 0 10px;
+}
+
+#toolbar .toolbar-menu #toolbar-home a {
+  text-indent: -9000px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 5px 0 0;
+  background: url(../i/icons/home.png) no-repeat center;  
+}
+#toolbar .toolbar-menu #toolbar-home a.active {
+  background-image: url(../i/icons/home-active.png);  
+}
+
+#toolbar .toolbar-menu #toolbar-menu a {
+  display: block;
+  padding: 9px 7px 9px 3px;
+}
+#toolbar .toolbar-menu #toolbar-menu a span.icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: -1px 4px 0 0;
+  background: url(../i/icons/application.png) no-repeat left center;  
+}
+
+#toolbar #toolbar-menu a#toolbar-link-admin-dashboard span.icon {
+  background-image: url(../i/icons/dashboard.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-content span.icon {
+  background-image: url(../i/icons/content.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-structure span.icon {
+  background-image: url(../i/icons/structure.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-appearance span.icon {
+  background-image: url(../i/icons/appearance.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-people span.icon {
+  background-image: url(../i/icons/people.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-modules span.icon {
+  background-image: url(../i/icons/modules.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-config span.icon {
+  background-image: url(../i/icons/config.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-reports span.icon {
+  background-image: url(../i/icons/reports.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-help span.icon {
+  background-image: url(../i/icons/help.png);
+}
+#toolbar #toolbar-menu a#toolbar-link-admin-store span.icon {
+  background-image: url(../i/icons/store.png);
+}
+
+
+#toolbar #toolbar-menu li.active-trail {
+  background: url(../i/toolbar-active.png) no-repeat left center;
+}
+#toolbar #toolbar-menu li.active-trail a {
+  background: url(../i/toolbar-active.png) no-repeat right center;
+  text-shadow: #aaaaaa 0 1px;
+}
+
+
+#toolbar .toolbar-drawer {
+  background: #8c8c8c url(../i/shortcuts.png) repeat-x left bottom;
+  border-bottom: 1px solid #696969;
+  overflow: hidden;
+  padding: 2px 10px;
+}
+#toolbar .toolbar-drawer a {
+  margin: 0 10px 0 0;
+  display: block;
+  padding: 2px 7px;
+}
+#toolbar .toolbar-drawer.collapsed {
+  display: none;
+}
+
+
+#toolbar .toolbar-drawer #edit-shortcuts {
+  float: right;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  background: url(../i/icons/shortcuts-edit.png) no-repeat center;
+  text-indent: -9000px;
+  padding: 0; 
+}

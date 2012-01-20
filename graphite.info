@@ -1,0 +1,32 @@
+; $Id$
+name = Graphite
+description = Admin theme.
+version = 0.1
+core = 7.x
+
+stylesheets[all][] = c/reset.css
+stylesheets[all][] = c/layout.css
+stylesheets[all][] = c/typography.css
+stylesheets[all][] = c/elements.css
+stylesheets[all][] = c/forms.css
+
+stylesheets[all][] = c/system.admin.css
+stylesheets[all][] = c/system.base.css
+stylesheets[all][] = c/system.menus.css
+stylesheets[all][] = c/system.messages.css
+stylesheets[all][] = c/system.theme.css
+
+stylesheets[all][] = c/search.css
+stylesheets[all][] = c/help.css
+stylesheets[all][] = c/field.css
+stylesheets[all][] = c/node.css
+stylesheets[all][] = c/user.css
+stylesheets[all][] = c/comment.css
+stylesheets[all][] = c/dblog.css
+stylesheets[all][] = c/toolbar.css
+stylesheets[all][] = c/shortcut.css
+stylesheets[all][] = c/overlay-child.css
+stylesheets[all][] = c/overlay-parent.css
+stylesheets[all][] = c/contextual.css
+
+scripts[] = j/graphite.js

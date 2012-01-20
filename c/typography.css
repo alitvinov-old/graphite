@@ -1,0 +1,116 @@
+/* $Id$ */
+body {
+  font: 11px 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+ol, ul, dl,
+blockquote {
+  margin: 1.2em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5em 0 0.8em;
+}
+
+ul, ol {
+  margin-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0 0 0 2em;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 2em;
+}
+
+h1 {
+  font-size: 24px;
+  color: #56595c;
+}
+h2 {
+  font-size: 20px;
+  color: #46494c;
+}
+h3 {
+  font-size: 18px;
+  color: #36393c;
+}
+h4 {
+  font-size: 16px;
+  color: #26292c;
+}
+h5 {
+  font-size: 14px;
+  color: #16191c;
+}
+h6 {
+  font-size: 12px;
+  color: #16191c;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  border-collapse: collapse;
+}
+th {
+  background: #eeeeee;
+  padding: 10px;  
+  border-right: 1px solid #d4d4d4;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #d4d4d4;
+  vertical-align: middle;
+  text-shadow: #fff 0 1px;
+  text-align: left;
+}
+td {
+  padding: 7px 10px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  vertical-align: middle;
+}
+tr.even td {
+  background: #f4f4f4;
+}
+
+a {
+  color: #309bbd;
+  text-shadow: #fff 0 1px;
+}
+a:hover {
+  color: #40abcd;
+  text-shadow: #fff 0 1px;
+}
+
+big {
+  font-size: 1.5em;
+}
+small {
+  font-size: 0.75em;
+}
+
+sup {
+  font-size: 0.75em;
+  display: inline-block;
+  vertical-align: super;
+  margin-top: -1em;
+}
+sub {
+  font-size: 0.75em;
+  display: inline-block;
+  vertical-align: sub;  
+  margin-bottom: -1em;
+}
+
+blockquote {
+  background: #efefef;
+  padding: 1em;
+  margin-left: 2em;
+}

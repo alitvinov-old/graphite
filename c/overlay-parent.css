@@ -1,0 +1,111 @@
+/* $Id$ */
+/*
+
+html.overlay-open,
+html.overlay-open body {
+  height: 100%;
+  overflow: hidden;
+}
+#overlay {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  -webkit-box-shadow: #000 0 2px 10px;  
+}
+#overlay-close {
+  float: right;
+  position: absolute;
+  display: none;
+}
+#overlay-tabs li {
+  float: left;
+  list-style: none;
+}
+#overlay-tabs li a {
+  color: #fff;
+  text-decoration: none;
+}
+#overlay-tabs {
+  background: url(../i/head.png) repeat-x left bottom;
+  padding: 10px;
+  color: #f1f8fd;
+  border-top: 1px solid #494a49;
+  border-bottom: 1px solid #151515;
+  overflow: hidden;
+  padding: 5px 20px;
+  margin: 0 -20px;
+}
+h1#overlay-title {
+  background: url(../i/head.png) repeat-x left bottom;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f1f8fd;
+  border-top: 1px solid #494a49;
+  border-bottom: 1px solid #151515;
+  margin: -20px -20px 0;
+  text-shadow: #000 0 2px;
+}
+.overlay-modal-load {
+  background: #fff url(../i/overlay-load.gif) no-repeat center 80px;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  -webkit-box-shadow: #000 0 2px 10px;  
+  height: 90px;
+  display: none;
+  margin: 0 5% 20px;
+  z-index: 502;
+  position: relative;
+}
+
+body.overlay { 
+  background: none;
+  padding: 0 5% 20px;
+  min-width: 0;
+}
+body.overlay .page-wrap {
+  padding: 0;
+  background: none;
+  min-height: 0;
+}
+body.overlay #page {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+#overlay-container,
+.overlay-modal-background,
+.overlay-element {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.overlay-modal-background {
+  background: #000;
+  opacity: 0.7;
+}
+.overlay-element {
+  background: transparent;
+  left: -200%;
+  z-index: 501;
+}
+.overlay-element.overlay-active {
+  left: 0;
+}
+
+html.overlay-open .displace-top,
+html.overlay-open .displace-bottom {
+  z-index: 600;
+}
+#overlay-disable-message {
+  display: none;
+}
+html.overlay-open #overlay-disable-message {
+  display: block;
+}
+*/
